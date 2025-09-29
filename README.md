@@ -92,19 +92,18 @@ You can view the complete dataset and analysis performed in this [Excel file](./
 
 ## 🔍 Key Insights
 
-1. **Station Popularity**  
-   High-traffic hubs like Grove St PATH and Sip Ave highlight commuter corridors.  
+### 1. Station Popularity – Where the Demand Is
+The busiest pick-up locations, such as **Grove St PATH, Sip Ave, and Columbus Drive**, show where Citi Bike demand is highest. These stations are close to transit hubs and workplaces, which explains why they see a lot of activity. The data confirms that Citi Bike is being used mainly for **short-distance commuting** in these areas rather than casual weekend rides.
 
-2. **User Behavior**  
-   - Subscribers dominate weekdays → reflects regular commuting patterns.  
-   - Customers appear more during weekends → likely tourists or occasional riders.  
+### 2. User Behavior – Subscribers vs. Customers
+Subscribers, who are annual members, make up most of the weekday rides. Their usage peaks from Monday to Friday, which points to commuting behavior. Customers, who are short-term users, ride more on weekends. This suggests they are mostly tourists or occasional riders using the service for leisure. The comparison makes it clear that Citi Bike serves two groups differently - **commuters during the week and casual riders on weekends**.
 
-3. **Age Dynamics**  
-   - Most riders fall between 25–44 years.  
-   - Average trip duration increases slightly at the extremes (18–24 and 65+).  
+### 3. Age Dynamics – Who Rides and How
+The **25–34 age group** accounts for the highest number of trips, followed by 35–44. These riders are likely young professionals who rely on Citi Bike for regular commuting. At the same time, older riders (65+) have fewer trips overall but take longer rides on average. This pattern shows that while younger riders use Citi Bike for quick, practical trips, older riders may use it more for leisure or fitness.
 
-4. **Trip Duration Variability**  
-   While most trips cluster under 15 minutes, a few outliers show unusually long rides, which could indicate errors or special use cases.  
+### 4. Trip Duration Variability – Normal vs. Outliers
+Most trips are under 15 minutes, which is expected for a bike share program designed for short distances. However, the scatter plot highlights some trips that last much longer, even several hours. These outliers could be due to data errors, bike returns that weren’t recorded correctly, or users holding onto a bike for special cases like long tours. It’s important to recognize these anomalies so they don’t distort the overall analysis.
+
 
 ---
 
